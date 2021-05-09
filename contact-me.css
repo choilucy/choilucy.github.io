@@ -1,3 +1,4 @@
+/* formatting */
 .main {
     position:relative;
     height:100vh;
@@ -45,6 +46,7 @@
     margin-right: 10%;
 }
 
+/* hover change */
 .link:hover {
     color: #FDF7B1;
 }
@@ -53,6 +55,7 @@
     color: #FDF7B1;
 }
 
+/* logo hover animation */
 .logo {
     margin-right: 60%;
 }
