@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "TeX Gyre Adventor";
+    src: url("/public/fonts/texgyreadventor-regular.otf");
+    font-style:normal;
+    font-weight:400;
+}
+
+@font-face {
+    font-family: "TeX Gyre Adventor";
+    src: url("/public/fonts/texgyreadventor-bold.otf");
+    font-style:normal;
+    font-weight:700;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: TeX Gyre Adventor;
+}
+
+html {
+    font-family: TeX Gyre Adventor;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+}

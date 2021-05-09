@@ -1,0 +1,62 @@
+.main {
+    position:relative;
+    height:100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 2% 0;
+}
+
+.footer {
+    position:absolute;
+    bottom: 5%;
+    left: 2%;
+    font-size:30px;
+}
+
+.heading {
+    margin: 0;
+    opacity: 0;
+}
+
+.subheading {
+    margin: 0;
+    opacity: 0;
+}
+
+.list {
+    display: flex;
+    align-items:center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    color: inherit;
+    text-decoration: none;
+    margin-right: 10%;
+}
+
+.link:hover {
+    color: #FDF7B1;
+}
+
+.logo {
+    margin-right: 60%;
+}
+
+.logo:hover {
+    animation: rotate 0.2s infinite linear;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
